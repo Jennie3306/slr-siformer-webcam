@@ -1,24 +1,23 @@
-# ---- Dữ liệu: KHÔNG đưa lên repo ----
-# WLASL (giấy phép C-UDA) và ASL Citizen (chỉ nghiên cứu, không phân phối lại):
-# video, keypoint, csv sinh ra từ video, danh sách video của người ký
+# ---- Data: never commit ----
+# WLASL (C-UDA licence) and ASL Citizen (non-commercial research only, no redistribution):
+# videos, keypoints, csv files derived from them, lists of signer videos
 data/
 *.mp4
 *.npz
 
-# Code của tác giả Siformer: hướng dẫn clone trong README, không chép vào repo
+# Authors' Siformer code: cloned as described in README, not copied into this repository
 external/
 
-# ---- Mô hình đã huấn luyện (nặng; nếu cần thì đưa lên GitHub Releases) ----
+# ---- Trained models (large; publish through GitHub Releases if needed) ----
 *.pth
 *.pt
 *.zip
 
-# ---- Kết quả: giữ số liệu và hình, bỏ file trung gian ----
-results/**/pred*.npz
+# ---- Results: keep metrics and figures, drop intermediate files ----
 results/**/*.log
 results/webcam_log.csv
 
-# ---- Báo cáo LaTeX: chỉ giữ mã nguồn ----
+# ---- LaTeX build files ----
 report/*.aux
 report/*.bbl
 report/*.blg
@@ -32,7 +31,10 @@ report/*.fdb_latexmk
 report/*.fls
 report/*.xdv
 
-# ---- Python, hệ điều hành, editor ----
+# ---- Internal notes (Vietnamese) ----
+report_outline.md
+
+# ---- Python, OS, editors ----
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
