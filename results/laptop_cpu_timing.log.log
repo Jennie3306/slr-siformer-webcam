@@ -1,0 +1,181 @@
+Feature isolated transformer
+C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\transformer.py:145: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  self.encoder = TransformerEncoder(
+self.selected_attn prob
+Encoder with input adaptive
+self.selected_attn prob
+Encoder with input adaptive
+self.selected_attn prob
+Encoder with input adaptive
+Using custom DecoderLayer
+Normal decoder
+num_enc_layers 3, num_dec_layers 2, patient 1
+Starting siformer_csv_s0...
+Training using ..\..\data\csv\train_smote.csv...
+Validation using ..\..\data\csv\val.csv...
+
+
+Save checkpoint for [1] as out-checkpoints/siformer_csv_s0/checkpoint_v_0.pth
+[1] TRAIN  loss: 4.72260498046875 acc: 0.010833333333333334
+[1] AVG TRAIN time per sample (sec): 2.274266228675842 
+[1] VALIDATION  acc: 0.017045454545454544
+[1] VALIDATION  Top 5 acc: 0.017045454545454544
+
+Save checkpoint for [2] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[2] TRAIN  loss: 4.5963223266601565 acc: 0.0125
+[2] AVG TRAIN time per sample (sec): 2.3679232788085938 
+[2] VALIDATION  acc: 0.028409090909090908
+[2] VALIDATION  Top 5 acc: 0.028409090909090908
+
+[3] TRAIN  loss: 4.412890930175781 acc: 0.03
+[3] AVG TRAIN time per sample (sec): 2.1848552227020264 
+[3] VALIDATION  acc: 0.028409090909090908
+[3] VALIDATION  Top 5 acc: 0.028409090909090908
+
+Save checkpoint for [4] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[4] TRAIN  loss: 4.219317932128906 acc: 0.03916666666666667
+[4] AVG TRAIN time per sample (sec): 2.3051771068573 
+[4] VALIDATION  acc: 0.03409090909090909
+[4] VALIDATION  Top 5 acc: 0.03409090909090909
+
+Save checkpoint for [5] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[5] TRAIN  loss: 4.033052062988281 acc: 0.06666666666666667
+[5] AVG TRAIN time per sample (sec): 2.182970471382141 
+[5] VALIDATION  acc: 0.05113636363636364
+[5] VALIDATION  Top 5 acc: 0.05113636363636364
+
+Save checkpoint for [6] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[6] TRAIN  loss: 3.8666555786132815 acc: 0.0925
+[6] AVG TRAIN time per sample (sec): 2.3514147329330446 
+[6] VALIDATION  acc: 0.07954545454545454
+[6] VALIDATION  Top 5 acc: 0.07954545454545454
+
+Save checkpoint for [7] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[7] TRAIN  loss: 3.702452392578125 acc: 0.12583333333333332
+[7] AVG TRAIN time per sample (sec): 2.3701529550552367 
+[7] VALIDATION  acc: 0.10795454545454546
+[7] VALIDATION  Top 5 acc: 0.10795454545454546
+
+Save checkpoint for [8] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[8] TRAIN  loss: 3.5554519653320313 acc: 0.17833333333333334
+[8] AVG TRAIN time per sample (sec): 2.2896650791168214 
+[8] VALIDATION  acc: 0.17045454545454544
+[8] VALIDATION  Top 5 acc: 0.17045454545454544
+
+Save checkpoint for [9] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[9] TRAIN  loss: 3.3821682739257812 acc: 0.22416666666666665
+[9] AVG TRAIN time per sample (sec): 2.3490129995346067 
+[9] VALIDATION  acc: 0.19318181818181818
+[9] VALIDATION  Top 5 acc: 0.19318181818181818
+
+Save checkpoint for [10] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[10] TRAIN  loss: 3.200191650390625 acc: 0.2966666666666667
+[10] AVG TRAIN time per sample (sec): 2.2691481208801267 
+[10] VALIDATION  acc: 0.20454545454545456
+[10] VALIDATION  Top 5 acc: 0.20454545454545456
+
+Save checkpoint for [11] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[11] TRAIN  loss: 3.0497576904296877 acc: 0.3525
+[11] AVG TRAIN time per sample (sec): 2.3125979137420654 
+[11] VALIDATION  acc: 0.25
+[11] VALIDATION  Top 5 acc: 0.25
+
+Save checkpoint for [12] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[12] TRAIN  loss: 2.876852722167969 acc: 0.42833333333333334
+[12] AVG TRAIN time per sample (sec): 2.2621466732025146 
+[12] VALIDATION  acc: 0.3125
+[12] VALIDATION  Top 5 acc: 0.3125
+
+[13] TRAIN  loss: 2.7247885131835936 acc: 0.4825
+[13] AVG TRAIN time per sample (sec): 2.27944947719574 
+[13] VALIDATION  acc: 0.2897727272727273
+[13] VALIDATION  Top 5 acc: 0.3125
+
+Save checkpoint for [14] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[14] TRAIN  loss: 2.566317138671875 acc: 0.5333333333333333
+[14] AVG TRAIN time per sample (sec): 2.3455886840820312 
+[14] VALIDATION  acc: 0.3465909090909091
+[14] VALIDATION  Top 5 acc: 0.3465909090909091
+
+Save checkpoint for [15] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[15] TRAIN  loss: 2.404407958984375 acc: 0.5816666666666667
+[15] AVG TRAIN time per sample (sec): 2.2697159576416017 
+[15] VALIDATION  acc: 0.3806818181818182
+[15] VALIDATION  Top 5 acc: 0.3806818181818182
+
+Save checkpoint for [16] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[16] TRAIN  loss: 2.2694802856445313 acc: 0.6141666666666666
+[16] AVG TRAIN time per sample (sec): 2.2650172662734986 
+[16] VALIDATION  acc: 0.4034090909090909
+[16] VALIDATION  Top 5 acc: 0.4034090909090909
+
+[17] TRAIN  loss: 2.1165447998046876 acc: 0.6625
+[17] AVG TRAIN time per sample (sec): 2.3398985719680785 
+[17] VALIDATION  acc: 0.4034090909090909
+[17] VALIDATION  Top 5 acc: 0.4034090909090909
+
+Save checkpoint for [18] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[18] TRAIN  loss: 1.9857893371582032 acc: 0.6833333333333333
+[18] AVG TRAIN time per sample (sec): 2.3538234710693358 
+[18] VALIDATION  acc: 0.4431818181818182
+[18] VALIDATION  Top 5 acc: 0.4431818181818182
+
+Save checkpoint for [19] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[19] TRAIN  loss: 1.83237060546875 acc: 0.7283333333333334
+[19] AVG TRAIN time per sample (sec): 2.3369584131240844 
+[19] VALIDATION  acc: 0.44886363636363635
+[19] VALIDATION  Top 5 acc: 0.44886363636363635
+
+Save checkpoint for [20] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[20] TRAIN  loss: 1.7234799194335937 acc: 0.74
+[20] AVG TRAIN time per sample (sec): 2.3186963987350464 
+[20] VALIDATION  acc: 0.4602272727272727
+[20] VALIDATION  Top 5 acc: 0.4602272727272727
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\train.py", line 355, in <module>
+    train(args)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\train.py", line 213, in train
+    train_loss, _, _, train_acc, avg_train_time = train_epoch(slr_model, train_loader, cel_criterion, optimizer,
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\siformer\utils.py", line 25, in train_epoch
+    outputs = model(l_hands, r_hands, bodies, training=True)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\siformer\model.py", line 254, in forward
+    transformer_output = self.transformer(
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\siformer\model.py", line 146, in forward
+    r_hand_memory = self.r_hand_encoder(src[1], mask=src_mask, src_key_padding_mask=src_key_padding_mask, training=training)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\siformer\encoder.py", line 141, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask)  # [L, B, F/D]
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\transformer.py", line 956, in forward
+    x = self.norm2(x + self._ff_block(x))
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\transformer.py", line 981, in _ff_block
+    x = self.linear2(self.dropout(self.activation(self.linear1(x))))
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\dropout.py", line 73, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\functional.py", line 1497, in dropout
+    _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+KeyboardInterrupt
+^C

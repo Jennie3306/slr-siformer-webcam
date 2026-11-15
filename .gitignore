@@ -13,8 +13,7 @@ external/
 *.pt
 *.zip
 
-# ---- Results: keep metrics and figures, drop intermediate files ----
-results/**/*.log
+# ---- Results: keep metrics, logs and figures, drop intermediate files ----
 results/webcam_log.csv
 
 # ---- LaTeX build files ----

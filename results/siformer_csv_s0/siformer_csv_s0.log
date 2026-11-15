@@ -1,0 +1,652 @@
+/usr/local/lib/python3.13/dist-packages/torch/nn/modules/transformer.py:144: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  self.encoder = TransformerEncoder(
+Cuda is available: True
+Feature isolated transformer
+self.selected_attn prob
+Encoder with input adaptive
+self.selected_attn prob
+Encoder with input adaptive
+self.selected_attn prob
+Encoder with input adaptive
+Using custom DecoderLayer
+Normal decoder
+num_enc_layers 3, num_dec_layers 2, patient 1
+Starting siformer_csv_s0...
+Training using /kaggle/input/datasets/uynlnhnh/dath-data/csv/train_smote.csv...
+Validation using /kaggle/input/datasets/uynlnhnh/dath-data/csv/val.csv...
+
+
+Save checkpoint for [1] as out-checkpoints/siformer_csv_s0/checkpoint_v_0.pth
+[1] TRAIN  loss: 4.715840148925781 acc: 0.006666666666666667
+[1] AVG TRAIN time per sample (sec): 0.259330620765686 
+[1] VALIDATION  acc: 0.011363636363636364
+[1] VALIDATION  Top 5 acc: 0.011363636363636364
+
+Save checkpoint for [2] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[2] TRAIN  loss: 4.595494995117187 acc: 0.010833333333333334
+[2] AVG TRAIN time per sample (sec): 0.244844012260437 
+[2] VALIDATION  acc: 0.017045454545454544
+[2] VALIDATION  Top 5 acc: 0.017045454545454544
+
+Save checkpoint for [3] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[3] TRAIN  loss: 4.448965454101563 acc: 0.0275
+[3] AVG TRAIN time per sample (sec): 0.24985315799713134 
+[3] VALIDATION  acc: 0.028409090909090908
+[3] VALIDATION  Top 5 acc: 0.028409090909090908
+
+Save checkpoint for [4] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[4] TRAIN  loss: 4.216087341308594 acc: 0.049166666666666664
+[4] AVG TRAIN time per sample (sec): 0.24930961608886718 
+[4] VALIDATION  acc: 0.05113636363636364
+[4] VALIDATION  Top 5 acc: 0.05113636363636364
+
+Save checkpoint for [5] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[5] TRAIN  loss: 4.0361566162109375 acc: 0.055
+[5] AVG TRAIN time per sample (sec): 0.24258630752563476 
+[5] VALIDATION  acc: 0.0625
+[5] VALIDATION  Top 5 acc: 0.0625
+
+Save checkpoint for [6] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[6] TRAIN  loss: 3.863206787109375 acc: 0.08916666666666667
+[6] AVG TRAIN time per sample (sec): 0.2442447566986084 
+[6] VALIDATION  acc: 0.09659090909090909
+[6] VALIDATION  Top 5 acc: 0.09659090909090909
+
+Save checkpoint for [7] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[7] TRAIN  loss: 3.6917803955078123 acc: 0.13166666666666665
+[7] AVG TRAIN time per sample (sec): 0.24842883586883546 
+[7] VALIDATION  acc: 0.11931818181818182
+[7] VALIDATION  Top 5 acc: 0.11931818181818182
+
+Save checkpoint for [8] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[8] TRAIN  loss: 3.5323641967773436 acc: 0.20333333333333334
+[8] AVG TRAIN time per sample (sec): 0.24851335048675538 
+[8] VALIDATION  acc: 0.1534090909090909
+[8] VALIDATION  Top 5 acc: 0.1534090909090909
+
+[9] TRAIN  loss: 3.3584866333007812 acc: 0.24416666666666667
+[9] AVG TRAIN time per sample (sec): 0.13889862060546876 
+[9] VALIDATION  acc: 0.1534090909090909
+[9] VALIDATION  Top 5 acc: 0.1534090909090909
+
+Save checkpoint for [10] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[10] TRAIN  loss: 3.1739471435546873 acc: 0.31666666666666665
+[10] AVG TRAIN time per sample (sec): 0.13834636211395263 
+[10] VALIDATION  acc: 0.2159090909090909
+[10] VALIDATION  Top 5 acc: 0.2159090909090909
+
+Save checkpoint for [11] as out-checkpoints/siformer_csv_s0/checkpoint_v_1.pth
+[11] TRAIN  loss: 3.022188415527344 acc: 0.36583333333333334
+[11] AVG TRAIN time per sample (sec): 0.13736509323120116 
+[11] VALIDATION  acc: 0.25
+[11] VALIDATION  Top 5 acc: 0.25
+
+Save checkpoint for [12] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[12] TRAIN  loss: 2.8607443237304686 acc: 0.41833333333333333
+[12] AVG TRAIN time per sample (sec): 0.14840316772460938 
+[12] VALIDATION  acc: 0.2784090909090909
+[12] VALIDATION  Top 5 acc: 0.2784090909090909
+
+Save checkpoint for [13] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[13] TRAIN  loss: 2.7056390380859376 acc: 0.4775
+[13] AVG TRAIN time per sample (sec): 0.14204318523406984 
+[13] VALIDATION  acc: 0.3352272727272727
+[13] VALIDATION  Top 5 acc: 0.3352272727272727
+
+Save checkpoint for [14] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[14] TRAIN  loss: 2.5342974853515625 acc: 0.5366666666666666
+[14] AVG TRAIN time per sample (sec): 0.13821768760681152 
+[14] VALIDATION  acc: 0.3465909090909091
+[14] VALIDATION  Top 5 acc: 0.3465909090909091
+
+Save checkpoint for [15] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[15] TRAIN  loss: 2.3818194580078127 acc: 0.59
+[15] AVG TRAIN time per sample (sec): 0.13846982955932619 
+[15] VALIDATION  acc: 0.36363636363636365
+[15] VALIDATION  Top 5 acc: 0.36363636363636365
+
+[16] TRAIN  loss: 2.236710205078125 acc: 0.6166666666666667
+[16] AVG TRAIN time per sample (sec): 0.1428056287765503 
+[16] VALIDATION  acc: 0.36363636363636365
+[16] VALIDATION  Top 5 acc: 0.36363636363636365
+
+Save checkpoint for [17] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[17] TRAIN  loss: 2.093075714111328 acc: 0.6616666666666666
+[17] AVG TRAIN time per sample (sec): 0.13863337993621827 
+[17] VALIDATION  acc: 0.4090909090909091
+[17] VALIDATION  Top 5 acc: 0.4090909090909091
+
+Save checkpoint for [18] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[18] TRAIN  loss: 1.952908935546875 acc: 0.6933333333333334
+[18] AVG TRAIN time per sample (sec): 0.1457518482208252 
+[18] VALIDATION  acc: 0.4147727272727273
+[18] VALIDATION  Top 5 acc: 0.4147727272727273
+
+Save checkpoint for [19] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[19] TRAIN  loss: 1.7955035400390624 acc: 0.7358333333333333
+[19] AVG TRAIN time per sample (sec): 0.13836714267730713 
+[19] VALIDATION  acc: 0.44886363636363635
+[19] VALIDATION  Top 5 acc: 0.44886363636363635
+
+[20] TRAIN  loss: 1.6949700927734375 acc: 0.7508333333333334
+[20] AVG TRAIN time per sample (sec): 0.13700734138488768 
+[20] VALIDATION  acc: 0.4375
+[20] VALIDATION  Top 5 acc: 0.44886363636363635
+
+Save checkpoint for [21] as out-checkpoints/siformer_csv_s0/checkpoint_v_2.pth
+[21] TRAIN  loss: 1.5637010192871095 acc: 0.7825
+[21] AVG TRAIN time per sample (sec): 0.14163691997528077 
+[21] VALIDATION  acc: 0.4659090909090909
+[21] VALIDATION  Top 5 acc: 0.4659090909090909
+
+Save checkpoint for [22] as out-checkpoints/siformer_csv_s0/checkpoint_v_3.pth
+[22] TRAIN  loss: 1.4769282531738281 acc: 0.7983333333333333
+[22] AVG TRAIN time per sample (sec): 0.1389652347564697 
+[22] VALIDATION  acc: 0.4715909090909091
+[22] VALIDATION  Top 5 acc: 0.4715909090909091
+
+Save checkpoint for [23] as out-checkpoints/siformer_csv_s0/checkpoint_v_3.pth
+[23] TRAIN  loss: 1.3575100708007812 acc: 0.8258333333333333
+[23] AVG TRAIN time per sample (sec): 0.14230106830596922 
+[23] VALIDATION  acc: 0.5170454545454546
+[23] VALIDATION  Top 5 acc: 0.5170454545454546
+
+[24] TRAIN  loss: 1.2780394744873047 acc: 0.8241666666666667
+[24] AVG TRAIN time per sample (sec): 0.1439778232574463 
+[24] VALIDATION  acc: 0.4943181818181818
+[24] VALIDATION  Top 5 acc: 0.5170454545454546
+
+[25] TRAIN  loss: 1.1561955261230468 acc: 0.8541666666666666
+[25] AVG TRAIN time per sample (sec): 0.14463479518890382 
+[25] VALIDATION  acc: 0.5113636363636364
+[25] VALIDATION  Top 5 acc: 0.5170454545454546
+
+Save checkpoint for [26] as out-checkpoints/siformer_csv_s0/checkpoint_v_3.pth
+[26] TRAIN  loss: 1.091650161743164 acc: 0.8558333333333333
+[26] AVG TRAIN time per sample (sec): 0.14470145225524902 
+[26] VALIDATION  acc: 0.5454545454545454
+[26] VALIDATION  Top 5 acc: 0.5454545454545454
+
+[27] TRAIN  loss: 0.9928596496582032 acc: 0.8766666666666667
+[27] AVG TRAIN time per sample (sec): 0.13726116180419923 
+[27] VALIDATION  acc: 0.5454545454545454
+[27] VALIDATION  Top 5 acc: 0.5454545454545454
+
+Save checkpoint for [28] as out-checkpoints/siformer_csv_s0/checkpoint_v_3.pth
+[28] TRAIN  loss: 0.936718978881836 acc: 0.8983333333333333
+[28] AVG TRAIN time per sample (sec): 0.151432523727417 
+[28] VALIDATION  acc: 0.5738636363636364
+[28] VALIDATION  Top 5 acc: 0.5738636363636364
+
+[29] TRAIN  loss: 0.8606183624267578 acc: 0.8991666666666667
+[29] AVG TRAIN time per sample (sec): 0.13970230102539063 
+[29] VALIDATION  acc: 0.5625
+[29] VALIDATION  Top 5 acc: 0.5738636363636364
+
+[30] TRAIN  loss: 0.7966474914550781 acc: 0.9033333333333333
+[30] AVG TRAIN time per sample (sec): 0.14179648876190185 
+[30] VALIDATION  acc: 0.5284090909090909
+[30] VALIDATION  Top 5 acc: 0.5738636363636364
+
+[31] TRAIN  loss: 0.7452725219726563 acc: 0.9141666666666667
+[31] AVG TRAIN time per sample (sec): 0.14492019176483154 
+[31] VALIDATION  acc: 0.5681818181818182
+[31] VALIDATION  Top 5 acc: 0.5738636363636364
+
+Save checkpoint for [32] as out-checkpoints/siformer_csv_s0/checkpoint_v_4.pth
+[32] TRAIN  loss: 0.6827781677246094 acc: 0.9283333333333333
+[32] AVG TRAIN time per sample (sec): 0.14226693153381348 
+[32] VALIDATION  acc: 0.5738636363636364
+[32] VALIDATION  Top 5 acc: 0.5738636363636364
+
+[33] TRAIN  loss: 0.6522932434082032 acc: 0.9266666666666666
+[33] AVG TRAIN time per sample (sec): 0.13979448795318603 
+[33] VALIDATION  acc: 0.5681818181818182
+[33] VALIDATION  Top 5 acc: 0.5738636363636364
+
+Save checkpoint for [34] as out-checkpoints/siformer_csv_s0/checkpoint_v_4.pth
+[34] TRAIN  loss: 0.6014072799682617 acc: 0.9408333333333333
+[34] AVG TRAIN time per sample (sec): 0.14536842346191406 
+[34] VALIDATION  acc: 0.5795454545454546
+[34] VALIDATION  Top 5 acc: 0.5795454545454546
+
+Save checkpoint for [35] as out-checkpoints/siformer_csv_s0/checkpoint_v_4.pth
+[35] TRAIN  loss: 0.5478409957885743 acc: 0.9533333333333334
+[35] AVG TRAIN time per sample (sec): 0.1411195945739746 
+[35] VALIDATION  acc: 0.5965909090909091
+[35] VALIDATION  Top 5 acc: 0.5965909090909091
+
+[36] TRAIN  loss: 0.5225983428955078 acc: 0.9516666666666667
+[36] AVG TRAIN time per sample (sec): 0.14875919818878175 
+[36] VALIDATION  acc: 0.5795454545454546
+[36] VALIDATION  Top 5 acc: 0.5965909090909091
+
+[37] TRAIN  loss: 0.4832902908325195 acc: 0.9541666666666667
+[37] AVG TRAIN time per sample (sec): 0.1420084524154663 
+[37] VALIDATION  acc: 0.5965909090909091
+[37] VALIDATION  Top 5 acc: 0.5965909090909091
+
+Save checkpoint for [38] as out-checkpoints/siformer_csv_s0/checkpoint_v_4.pth
+[38] TRAIN  loss: 0.4473896026611328 acc: 0.9575
+[38] AVG TRAIN time per sample (sec): 0.1341359806060791 
+[38] VALIDATION  acc: 0.6193181818181818
+[38] VALIDATION  Top 5 acc: 0.6193181818181818
+
+[39] TRAIN  loss: 0.4218522262573242 acc: 0.9666666666666667
+[39] AVG TRAIN time per sample (sec): 0.13970189571380615 
+[39] VALIDATION  acc: 0.5909090909090909
+[39] VALIDATION  Top 5 acc: 0.6193181818181818
+
+[40] TRAIN  loss: 0.39595394134521483 acc: 0.9625
+[40] AVG TRAIN time per sample (sec): 0.13776752948760987 
+[40] VALIDATION  acc: 0.6136363636363636
+[40] VALIDATION  Top 5 acc: 0.6193181818181818
+
+Save checkpoint for [41] as out-checkpoints/siformer_csv_s0/checkpoint_v_4.pth
+[41] TRAIN  loss: 0.3698337173461914 acc: 0.9658333333333333
+[41] AVG TRAIN time per sample (sec): 0.1324177551269531 
+[41] VALIDATION  acc: 0.6420454545454546
+[41] VALIDATION  Top 5 acc: 0.6420454545454546
+
+Save checkpoint for [42] as out-checkpoints/siformer_csv_s0/checkpoint_v_5.pth
+[42] TRAIN  loss: 0.3451622772216797 acc: 0.9758333333333333
+[42] AVG TRAIN time per sample (sec): 0.14756250858306885 
+[42] VALIDATION  acc: 0.6193181818181818
+[42] VALIDATION  Top 5 acc: 0.6193181818181818
+
+Save checkpoint for [43] as out-checkpoints/siformer_csv_s0/checkpoint_v_5.pth
+[43] TRAIN  loss: 0.31819465637207034 acc: 0.9791666666666666
+[43] AVG TRAIN time per sample (sec): 0.14707266807556152 
+[43] VALIDATION  acc: 0.6420454545454546
+[43] VALIDATION  Top 5 acc: 0.6420454545454546
+
+[44] TRAIN  loss: 0.2977161979675293 acc: 0.975
+[44] AVG TRAIN time per sample (sec): 0.12648388862609863 
+[44] VALIDATION  acc: 0.6420454545454546
+[44] VALIDATION  Top 5 acc: 0.6420454545454546
+
+Save checkpoint for [45] as out-checkpoints/siformer_csv_s0/checkpoint_v_5.pth
+[45] TRAIN  loss: 0.2791582107543945 acc: 0.9841666666666666
+[45] AVG TRAIN time per sample (sec): 0.1305363082885742 
+[45] VALIDATION  acc: 0.6590909090909091
+[45] VALIDATION  Top 5 acc: 0.6590909090909091
+
+[46] TRAIN  loss: 0.25787689208984377 acc: 0.985
+[46] AVG TRAIN time per sample (sec): 0.14431347846984863 
+[46] VALIDATION  acc: 0.6477272727272727
+[46] VALIDATION  Top 5 acc: 0.6590909090909091
+
+[47] TRAIN  loss: 0.2335193634033203 acc: 0.9816666666666667
+[47] AVG TRAIN time per sample (sec): 0.13044558525085448 
+[47] VALIDATION  acc: 0.625
+[47] VALIDATION  Top 5 acc: 0.6590909090909091
+
+[48] TRAIN  loss: 0.22791906356811523 acc: 0.9883333333333333
+[48] AVG TRAIN time per sample (sec): 0.13391375541687012 
+[48] VALIDATION  acc: 0.6477272727272727
+[48] VALIDATION  Top 5 acc: 0.6590909090909091
+
+[49] TRAIN  loss: 0.2216632080078125 acc: 0.9816666666666667
+[49] AVG TRAIN time per sample (sec): 0.1284725046157837 
+[49] VALIDATION  acc: 0.6590909090909091
+[49] VALIDATION  Top 5 acc: 0.6590909090909091
+
+[50] TRAIN  loss: 0.19594079971313477 acc: 0.9891666666666666
+[50] AVG TRAIN time per sample (sec): 0.14769957542419435 
+[50] VALIDATION  acc: 0.6420454545454546
+[50] VALIDATION  Top 5 acc: 0.6590909090909091
+
+[51] TRAIN  loss: 0.18360651016235352 acc: 0.9891666666666666
+[51] AVG TRAIN time per sample (sec): 0.14204561233520507 
+[51] VALIDATION  acc: 0.6590909090909091
+[51] VALIDATION  Top 5 acc: 0.6590909090909091
+
+Save checkpoint for [52] as out-checkpoints/siformer_csv_s0/checkpoint_v_6.pth
+[52] TRAIN  loss: 0.17656440734863282 acc: 0.99
+[52] AVG TRAIN time per sample (sec): 0.14447596549987793 
+[52] VALIDATION  acc: 0.6420454545454546
+[52] VALIDATION  Top 5 acc: 0.6420454545454546
+
+Save checkpoint for [53] as out-checkpoints/siformer_csv_s0/checkpoint_v_6.pth
+[53] TRAIN  loss: 0.15915969848632813 acc: 0.9916666666666667
+[53] AVG TRAIN time per sample (sec): 0.14512939453125 
+[53] VALIDATION  acc: 0.6590909090909091
+[53] VALIDATION  Top 5 acc: 0.6590909090909091
+
+Save checkpoint for [54] as out-checkpoints/siformer_csv_s0/checkpoint_v_6.pth
+[54] TRAIN  loss: 0.1590007495880127 acc: 0.9883333333333333
+[54] AVG TRAIN time per sample (sec): 0.1341470766067505 
+[54] VALIDATION  acc: 0.6647727272727273
+[54] VALIDATION  Top 5 acc: 0.6647727272727273
+
+Save checkpoint for [55] as out-checkpoints/siformer_csv_s0/checkpoint_v_6.pth
+[55] TRAIN  loss: 0.14311485290527343 acc: 0.9941666666666666
+[55] AVG TRAIN time per sample (sec): 0.1412557554244995 
+[55] VALIDATION  acc: 0.6818181818181818
+[55] VALIDATION  Top 5 acc: 0.6818181818181818
+
+Save checkpoint for [56] as out-checkpoints/siformer_csv_s0/checkpoint_v_6.pth
+[56] TRAIN  loss: 0.1445239543914795 acc: 0.9908333333333333
+[56] AVG TRAIN time per sample (sec): 0.14439295291900633 
+[56] VALIDATION  acc: 0.6875
+[56] VALIDATION  Top 5 acc: 0.6875
+
+[57] TRAIN  loss: 0.13024460792541503 acc: 0.9916666666666667
+[57] AVG TRAIN time per sample (sec): 0.13947030544281006 
+[57] VALIDATION  acc: 0.6818181818181818
+[57] VALIDATION  Top 5 acc: 0.6875
+
+[58] TRAIN  loss: 0.128619966506958 acc: 0.9916666666666667
+[58] AVG TRAIN time per sample (sec): 0.1307574987411499 
+[58] VALIDATION  acc: 0.6818181818181818
+[58] VALIDATION  Top 5 acc: 0.6875
+
+[59] TRAIN  loss: 0.11876481056213378 acc: 0.9908333333333333
+[59] AVG TRAIN time per sample (sec): 0.13524725437164306 
+[59] VALIDATION  acc: 0.6875
+[59] VALIDATION  Top 5 acc: 0.6875
+
+Save checkpoint for [60] as out-checkpoints/siformer_csv_s0/checkpoint_v_6.pth
+[60] TRAIN  loss: 0.11899950981140137 acc: 0.9891666666666666
+[60] AVG TRAIN time per sample (sec): 0.13679714679718016 
+[60] VALIDATION  acc: 0.6988636363636364
+[60] VALIDATION  Top 5 acc: 0.6988636363636364
+
+[61] TRAIN  loss: 0.10443099975585937 acc: 0.9941666666666666
+[61] AVG TRAIN time per sample (sec): 0.1252761459350586 
+[61] VALIDATION  acc: 0.6988636363636364
+[61] VALIDATION  Top 5 acc: 0.6988636363636364
+
+Save checkpoint for [62] as out-checkpoints/siformer_csv_s0/checkpoint_v_7.pth
+[62] TRAIN  loss: 0.10232888221740723 acc: 0.9925
+[62] AVG TRAIN time per sample (sec): 0.13581685543060304 
+[62] VALIDATION  acc: 0.6818181818181818
+[62] VALIDATION  Top 5 acc: 0.6818181818181818
+
+Save checkpoint for [63] as out-checkpoints/siformer_csv_s0/checkpoint_v_7.pth
+[63] TRAIN  loss: 0.096005277633667 acc: 0.9958333333333333
+[63] AVG TRAIN time per sample (sec): 0.12843460083007813 
+[63] VALIDATION  acc: 0.6931818181818182
+[63] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[64] TRAIN  loss: 0.09423125267028809 acc: 0.9958333333333333
+[64] AVG TRAIN time per sample (sec): 0.13358508586883544 
+[64] VALIDATION  acc: 0.6818181818181818
+[64] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[65] TRAIN  loss: 0.08915762901306153 acc: 0.995
+[65] AVG TRAIN time per sample (sec): 0.12420160293579102 
+[65] VALIDATION  acc: 0.6931818181818182
+[65] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[66] TRAIN  loss: 0.09350568771362305 acc: 0.9966666666666667
+[66] AVG TRAIN time per sample (sec): 0.12881659030914305 
+[66] VALIDATION  acc: 0.6931818181818182
+[66] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[67] TRAIN  loss: 0.09005612373352051 acc: 0.9975
+[67] AVG TRAIN time per sample (sec): 0.1370738172531128 
+[67] VALIDATION  acc: 0.6931818181818182
+[67] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[68] TRAIN  loss: 0.09295703887939454 acc: 0.995
+[68] AVG TRAIN time per sample (sec): 0.14467069625854492 
+[68] VALIDATION  acc: 0.6931818181818182
+[68] VALIDATION  Top 5 acc: 0.6931818181818182
+
+Save checkpoint for [69] as out-checkpoints/siformer_csv_s0/checkpoint_v_7.pth
+[69] TRAIN  loss: 0.09382669448852539 acc: 0.995
+[69] AVG TRAIN time per sample (sec): 0.14427875518798827 
+[69] VALIDATION  acc: 0.6988636363636364
+[69] VALIDATION  Top 5 acc: 0.6988636363636364
+
+[70] TRAIN  loss: 0.08815060615539551 acc: 0.9983333333333333
+[70] AVG TRAIN time per sample (sec): 0.13045271396636962 
+[70] VALIDATION  acc: 0.6988636363636364
+[70] VALIDATION  Top 5 acc: 0.6988636363636364
+
+[71] TRAIN  loss: 0.08919775009155273 acc: 0.9958333333333333
+[71] AVG TRAIN time per sample (sec): 0.1278417682647705 
+[71] VALIDATION  acc: 0.6761363636363636
+[71] VALIDATION  Top 5 acc: 0.6988636363636364
+
+Save checkpoint for [72] as out-checkpoints/siformer_csv_s0/checkpoint_v_8.pth
+[72] TRAIN  loss: 0.08993552207946777 acc: 0.995
+[72] AVG TRAIN time per sample (sec): 0.14245849609375 
+[72] VALIDATION  acc: 0.6875
+[72] VALIDATION  Top 5 acc: 0.6875
+
+[73] TRAIN  loss: 0.08876297950744629 acc: 0.9975
+[73] AVG TRAIN time per sample (sec): 0.1431823205947876 
+[73] VALIDATION  acc: 0.6818181818181818
+[73] VALIDATION  Top 5 acc: 0.6875
+
+Save checkpoint for [74] as out-checkpoints/siformer_csv_s0/checkpoint_v_8.pth
+[74] TRAIN  loss: 0.08978964805603028 acc: 0.9958333333333333
+[74] AVG TRAIN time per sample (sec): 0.13493321895599364 
+[74] VALIDATION  acc: 0.6931818181818182
+[74] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[75] TRAIN  loss: 0.08614899635314942 acc: 0.9966666666666667
+[75] AVG TRAIN time per sample (sec): 0.13173119068145753 
+[75] VALIDATION  acc: 0.6875
+[75] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[76] TRAIN  loss: 0.08634960174560546 acc: 0.9958333333333333
+[76] AVG TRAIN time per sample (sec): 0.1265265989303589 
+[76] VALIDATION  acc: 0.6704545454545454
+[76] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[77] TRAIN  loss: 0.08898202896118164 acc: 0.9941666666666666
+[77] AVG TRAIN time per sample (sec): 0.1312204122543335 
+[77] VALIDATION  acc: 0.6931818181818182
+[77] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[78] TRAIN  loss: 0.08436464309692383 acc: 0.9958333333333333
+[78] AVG TRAIN time per sample (sec): 0.14424482345581055 
+[78] VALIDATION  acc: 0.6931818181818182
+[78] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[79] TRAIN  loss: 0.08550103187561035 acc: 0.9966666666666667
+[79] AVG TRAIN time per sample (sec): 0.13751270294189452 
+[79] VALIDATION  acc: 0.6818181818181818
+[79] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[80] TRAIN  loss: 0.0835937213897705 acc: 0.995
+[80] AVG TRAIN time per sample (sec): 0.14009736537933348 
+[80] VALIDATION  acc: 0.6931818181818182
+[80] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[81] TRAIN  loss: 0.0825426197052002 acc: 0.995
+[81] AVG TRAIN time per sample (sec): 0.12995457649230957 
+[81] VALIDATION  acc: 0.6931818181818182
+[81] VALIDATION  Top 5 acc: 0.6931818181818182
+
+Save checkpoint for [82] as out-checkpoints/siformer_csv_s0/checkpoint_v_9.pth
+[82] TRAIN  loss: 0.09083103179931641 acc: 0.9941666666666666
+[82] AVG TRAIN time per sample (sec): 0.12822652816772462 
+[82] VALIDATION  acc: 0.6875
+[82] VALIDATION  Top 5 acc: 0.6875
+
+Save checkpoint for [83] as out-checkpoints/siformer_csv_s0/checkpoint_v_9.pth
+[83] TRAIN  loss: 0.08298644065856933 acc: 0.995
+[83] AVG TRAIN time per sample (sec): 0.1432246732711792 
+[83] VALIDATION  acc: 0.6931818181818182
+[83] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[84] TRAIN  loss: 0.08230104446411132 acc: 0.9958333333333333
+[84] AVG TRAIN time per sample (sec): 0.1388843011856079 
+[84] VALIDATION  acc: 0.6875
+[84] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[85] TRAIN  loss: 0.08547891616821289 acc: 0.9958333333333333
+[85] AVG TRAIN time per sample (sec): 0.13552298069000243 
+[85] VALIDATION  acc: 0.6875
+[85] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[86] TRAIN  loss: 0.08523100852966309 acc: 0.9925
+[86] AVG TRAIN time per sample (sec): 0.1423890447616577 
+[86] VALIDATION  acc: 0.6818181818181818
+[86] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[87] TRAIN  loss: 0.08366989135742188 acc: 0.995
+[87] AVG TRAIN time per sample (sec): 0.14633429527282715 
+[87] VALIDATION  acc: 0.6818181818181818
+[87] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[88] TRAIN  loss: 0.08189545631408691 acc: 0.9975
+[88] AVG TRAIN time per sample (sec): 0.1419589900970459 
+[88] VALIDATION  acc: 0.6818181818181818
+[88] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[89] TRAIN  loss: 0.08042528152465821 acc: 0.9975
+[89] AVG TRAIN time per sample (sec): 0.14897265434265136 
+[89] VALIDATION  acc: 0.6761363636363636
+[89] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[90] TRAIN  loss: 0.08196308135986329 acc: 0.9958333333333333
+[90] AVG TRAIN time per sample (sec): 0.13418935775756835 
+[90] VALIDATION  acc: 0.6875
+[90] VALIDATION  Top 5 acc: 0.6931818181818182
+
+[91] TRAIN  loss: 0.08138938903808594 acc: 0.9983333333333333
+[91] AVG TRAIN time per sample (sec): 0.13241878032684326 
+[91] VALIDATION  acc: 0.6818181818181818
+[91] VALIDATION  Top 5 acc: 0.6931818181818182
+
+Save checkpoint for [92] as out-checkpoints/siformer_csv_s0/checkpoint_v_10.pth
+[92] TRAIN  loss: 0.0814188289642334 acc: 0.9958333333333333
+[92] AVG TRAIN time per sample (sec): 0.14209531784057616 
+[92] VALIDATION  acc: 0.6761363636363636
+[92] VALIDATION  Top 5 acc: 0.6761363636363636
+
+Save checkpoint for [93] as out-checkpoints/siformer_csv_s0/checkpoint_v_10.pth
+[93] TRAIN  loss: 0.0817289924621582 acc: 0.9975
+[93] AVG TRAIN time per sample (sec): 0.14167203903198242 
+[93] VALIDATION  acc: 0.6818181818181818
+[93] VALIDATION  Top 5 acc: 0.6818181818181818
+
+[94] TRAIN  loss: 0.08281649589538574 acc: 0.995
+[94] AVG TRAIN time per sample (sec): 0.13402623653411866 
+[94] VALIDATION  acc: 0.6818181818181818
+[94] VALIDATION  Top 5 acc: 0.6818181818181818
+
+Save checkpoint for [95] as out-checkpoints/siformer_csv_s0/checkpoint_v_10.pth
+[95] TRAIN  loss: 0.0820915412902832 acc: 0.995
+[95] AVG TRAIN time per sample (sec): 0.13977621078491212 
+[95] VALIDATION  acc: 0.6875
+[95] VALIDATION  Top 5 acc: 0.6875
+
+[96] TRAIN  loss: 0.08160242080688476 acc: 0.9975
+[96] AVG TRAIN time per sample (sec): 0.13215693950653076 
+[96] VALIDATION  acc: 0.6875
+[96] VALIDATION  Top 5 acc: 0.6875
+
+[97] TRAIN  loss: 0.08242365837097168 acc: 0.9958333333333333
+[97] AVG TRAIN time per sample (sec): 0.1394117546081543 
+[97] VALIDATION  acc: 0.6761363636363636
+[97] VALIDATION  Top 5 acc: 0.6875
+
+[98] TRAIN  loss: 0.08437400817871094 acc: 0.9941666666666666
+[98] AVG TRAIN time per sample (sec): 0.1367179775238037 
+[98] VALIDATION  acc: 0.6875
+[98] VALIDATION  Top 5 acc: 0.6875
+
+[99] TRAIN  loss: 0.0818806266784668 acc: 0.9975
+[99] AVG TRAIN time per sample (sec): 0.13560149669647217 
+[99] VALIDATION  acc: 0.6875
+[99] VALIDATION  Top 5 acc: 0.6875
+
+[100] TRAIN  loss: 0.08375694274902344 acc: 0.9958333333333333
+[100] AVG TRAIN time per sample (sec): 0.13658626079559327 
+[100] VALIDATION  acc: 0.6875
+[100] VALIDATION  Top 5 acc: 0.6875
+
+
+Testing checkpointed models starting...
+
+Label accuracies statistics:
+{2: 0.0, 12: 0.0, 13: 0.041666666666666664, 30: 0.0, 38: 0.041666666666666664, 93: 0.0}
+
+checkpoint_t_0  ->  0.015625
+Label accuracies statistics:
+{49: 0.0, 59: 0.0, 65: 0.0, 75: 0.0, 95: 0.041666666666666664, 96: 0.041666666666666664}
+
+checkpoint_v_0  ->  0.015625
+Label accuracies statistics:
+{9: 0.375, 21: 0.2916666666666667, 38: 0.3333333333333333, 74: 0.20833333333333334, 86: 0.2916666666666667, 95: 0.375}
+
+checkpoint_t_1  ->  0.3046875
+Label accuracies statistics:
+{3: 0.3333333333333333, 5: 0.3333333333333333, 14: 0.125, 26: 0.3333333333333333, 64: 0.3333333333333333, 91: 0.125}
+
+checkpoint_v_1  ->  0.28125
+Label accuracies statistics:
+{8: 0.5416666666666666, 29: 0.4166666666666667, 44: 0.5416666666666666, 45: 0.625, 78: 0.2916666666666667, 87: 0.375}
+
+checkpoint_t_2  ->  0.4765625
+Label accuracies statistics:
+{8: 0.375, 42: 0.625, 51: 0.2916666666666667, 61: 0.3333333333333333, 63: 0.5416666666666666, 93: 0.5416666666666666}
+
+checkpoint_v_2  ->  0.4609375
+Label accuracies statistics:
+{1: 0.75, 4: 0.4583333333333333, 45: 0.5416666666666666, 65: 0.375, 75: 0.625, 79: 0.6666666666666666}
+
+checkpoint_t_3  ->  0.59375
+Label accuracies statistics:
+{16: 0.5416666666666666, 17: 0.7083333333333334, 48: 0.25, 68: 0.5, 80: 0.5, 98: 0.5416666666666666}
+
+checkpoint_v_3  ->  0.5390625
+Label accuracies statistics:
+{3: 0.5833333333333334, 30: 0.75, 46: 0.625, 71: 0.5833333333333334, 73: 0.625, 98: 0.75}
+
+checkpoint_t_4  ->  0.640625
+Label accuracies statistics:
+{12: 0.7083333333333334, 35: 0.75, 36: 0.5, 53: 0.7083333333333334, 54: 0.5, 59: 0.6666666666666666}
+
+checkpoint_v_4  ->  0.65625
+Label accuracies statistics:
+{30: 0.6666666666666666, 48: 0.875, 50: 0.625, 59: 0.5416666666666666, 71: 0.6666666666666666, 95: 0.75}
+
+checkpoint_t_5  ->  0.6640625
+Label accuracies statistics:
+{14: 0.75, 25: 0.5416666666666666, 30: 0.6666666666666666, 46: 0.6666666666666666, 68: 0.5, 74: 0.6666666666666666}
+
+checkpoint_v_5  ->  0.6484375
+Label accuracies statistics:
+{9: 0.6666666666666666, 37: 0.625, 42: 0.625, 58: 0.625, 59: 0.6666666666666666, 96: 0.75}
+
+checkpoint_t_6  ->  0.6484375
+Label accuracies statistics:
+{45: 0.625, 59: 0.6666666666666666, 65: 0.5416666666666666, 73: 0.7083333333333334, 95: 0.75, 97: 0.625}
+
+checkpoint_v_6  ->  0.640625
+Label accuracies statistics:
+{9: 0.8333333333333334, 27: 0.5833333333333334, 30: 0.5, 69: 0.6666666666666666, 73: 0.75, 99: 0.7083333333333334}
+
+checkpoint_t_7  ->  0.6640625
+Label accuracies statistics:
+{7: 0.6666666666666666, 8: 0.75, 34: 0.6666666666666666, 65: 0.625, 75: 0.5416666666666666, 81: 0.875}
+
+checkpoint_v_7  ->  0.6640625
+Label accuracies statistics:
+{10: 0.625, 15: 0.625, 21: 0.7916666666666666, 42: 0.6666666666666666, 53: 0.625, 63: 0.5833333333333334}
+
+checkpoint_t_8  ->  0.65625
+Label accuracies statistics:
+{45: 0.625, 50: 0.7083333333333334, 65: 0.5, 66: 0.625, 71: 0.75, 92: 0.75}
+
+checkpoint_v_8  ->  0.6484375
+Label accuracies statistics:
+{2: 0.6666666666666666, 3: 0.6458333333333334, 8: 0.75, 20: 0.5416666666666666, 95: 0.875}
+
+checkpoint_t_9  ->  0.6640625
+Label accuracies statistics:
+{46: 0.6666666666666666, 55: 0.75, 56: 0.5, 62: 0.6666666666666666, 66: 0.6666666666666666, 74: 0.5833333333333334}
+
+checkpoint_v_9  ->  0.65625
+
+The top result was recorded at 0.6640625 testing accuracy. The best checkpoint is siformer_csv_s0/checkpoint_t_5.
+
+Any desired statistics have been plotted.
+The experiment is finished.

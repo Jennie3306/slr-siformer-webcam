@@ -1,0 +1,64 @@
+Feature isolated transformer
+C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\transformer.py:145: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  self.encoder = TransformerEncoder(
+self.selected_attn prob
+Encoder with input adaptive
+self.selected_attn prob
+Encoder with input adaptive
+self.selected_attn prob
+Encoder with input adaptive
+Using custom DecoderLayer
+Normal decoder
+num_enc_layers 3, num_dec_layers 2, patient 1
+Starting siformer_csv_s0...
+Training using ..\..\data\csv\train_smote.csv...
+Validation using ..\..\data\csv\val.csv...
+
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\train.py", line 355, in <module>
+    train(args)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\train.py", line 213, in train
+    train_loss, _, _, train_acc, avg_train_time = train_epoch(slr_model, train_loader, cel_criterion, optimizer,
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\siformer\utils.py", line 25, in train_epoch
+    outputs = model(l_hands, r_hands, bodies, training=True)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\siformer\model.py", line 254, in forward
+    transformer_output = self.transformer(
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\siformer\model.py", line 145, in forward
+    l_hand_memory = self.l_hand_encoder(src[0], mask=src_mask, src_key_padding_mask=src_key_padding_mask, training=training)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\Semester\261\DATH\slr_project\external\Siformer\siformer\encoder.py", line 141, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask)  # [L, B, F/D]
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\transformer.py", line 956, in forward
+    x = self.norm2(x + self._ff_block(x))
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\transformer.py", line 981, in _ff_block
+    x = self.linear2(self.dropout(self.activation(self.linear1(x))))
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\modules\dropout.py", line 73, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "C:\Users\Asus\miniconda3\envs\slr\lib\site-packages\torch\nn\functional.py", line 1497, in dropout
+    _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+KeyboardInterrupt
+^C

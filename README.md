@@ -50,7 +50,8 @@ The full analysis is in the report (`report/`).
 src/        project code (data, keypoints, rectification, evaluation, webcam app)
 tests/      self-test on synthetic data (no MediaPipe or PyTorch needed)
 tables/     range-of-motion tables for hand pose rectification (rebuilt, see tables/README.md)
-results/    metrics and figures
+results/    metrics, training logs and figures
+notebooks/  Kaggle training notebooks
 report/     LaTeX source of the report
 external/   authors' code, cloned here (not part of this repository)
 data/       videos, keypoints, csv files (not part of this repository)
@@ -113,6 +114,10 @@ python -m train --experiment_name siformer_s0 --num_classes 100 --seed 0 \
   --validation_set from-file --validation_set_path data/csv_rect_dip/val.csv \
   --testing_set_path data/csv_rect_dip/test.csv
 ```
+
+The exact runs are in `notebooks/`: version 1 trains Siformer (seed 0) on the three data versions
+(no rectification, `dip_only`, `full`) to choose one on validation; version 2 trains the remaining
+Siformer seeds and SPOTER on `dip_only`. The keypoint data they read is not public.
 
 `train.py` reports the best checkpoint on the test set and evaluates with dropout on. This project
 instead selects the checkpoint on validation (`src/select_checkpoint.py`) and evaluates once in

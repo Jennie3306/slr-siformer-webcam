@@ -1,0 +1,33 @@
+2026-11-14 21:17:54,382 [INFO] Starting cpu_test...
+2026-11-14 21:17:54,382 [INFO] Training using ..\..\data\csv\train_smote.csv...
+2026-11-14 21:17:54,382 [INFO] Validation using ..\..\data\csv\val.csv...
+
+
+2026-11-14 21:22:27,165 [INFO] Save checkpoint for [1] as out-checkpoints/cpu_test/checkpoint_v_0.pth
+2026-11-14 21:22:27,168 [INFO] [1] TRAIN  loss: 4.72260498046875 acc: 0.010833333333333334
+2026-11-14 21:22:27,168 [INFO] [1] AVG TRAIN time per sample (sec): 2.244295334815979 
+2026-11-14 21:22:27,168 [INFO] [1] VALIDATION  acc: 0.017045454545454544
+2026-11-14 21:22:27,169 [INFO] [1] VALIDATION  Top 5 acc: 0.017045454545454544
+2026-11-14 21:22:27,169 [INFO] 
+2026-11-14 21:26:43,581 [INFO] Save checkpoint for [2] as out-checkpoints/cpu_test/checkpoint_v_1.pth
+2026-11-14 21:26:43,583 [INFO] [2] TRAIN  loss: 4.5963223266601565 acc: 0.0125
+2026-11-14 21:26:43,583 [INFO] [2] AVG TRAIN time per sample (sec): 2.2059449911117555 
+2026-11-14 21:26:43,583 [INFO] [2] VALIDATION  acc: 0.028409090909090908
+2026-11-14 21:26:43,583 [INFO] [2] VALIDATION  Top 5 acc: 0.028409090909090908
+2026-11-14 21:26:43,585 [INFO] 
+2026-11-14 21:26:43,585 [INFO] 
+Testing checkpointed models starting...
+
+2026-11-14 21:27:36,849 [INFO] Label accuracies statistics:
+2026-11-14 21:27:36,849 [INFO] {3: 0.0, 11: 0.0, 23: 0.0, 42: 0.041666666666666664, 57: 0.041666666666666664, 80: 0.0}
+
+2026-11-14 21:27:36,849 [INFO] checkpoint_t_0  ->  0.015625
+2026-11-14 21:28:26,112 [INFO] Label accuracies statistics:
+2026-11-14 21:28:26,112 [INFO] {1: 0.0, 3: 0.041666666666666664, 14: 0.0, 75: 0.0, 85: 0.0, 94: 0.041666666666666664}
+
+2026-11-14 21:28:26,113 [INFO] checkpoint_v_0  ->  0.015625
+2026-11-14 21:28:26,113 [INFO] 
+The top result was recorded at 0.015625 testing accuracy. The best checkpoint is cpu_test/checkpoint_t_0.
+2026-11-14 21:28:27,345 [INFO] 
+Any desired statistics have been plotted.
+The experiment is finished.
