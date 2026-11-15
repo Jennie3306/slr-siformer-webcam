@@ -1,0 +1,5 @@
+fingers,ranges,paired_joint_index,associated_joint_index
+index,"[-30, 90]","[8, 7, 6]",[]
+middle,"[-30, 90]","[12, 11, 10]",[]
+ring,"[-30, 90]","[16, 15, 14]",[]
+little,"[-30, 90]","[20, 19, 18]",[]

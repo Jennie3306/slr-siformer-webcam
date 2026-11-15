@@ -1,0 +1,31 @@
+{
+  "pi_top1": {
+    "mean": 0.4322916666666667,
+    "std": 0.023867581744561665
+  },
+  "pi_top5": {
+    "mean": 0.7552083333333334,
+    "std": 0.004510548978043951
+  },
+  "pc_top1": {
+    "mean": 0.43944444444444447,
+    "std": 0.02849626356273813
+  },
+  "pc_top5": {
+    "mean": 0.7583333333333333,
+    "std": 0.014813657362192697
+  },
+  "model_ms_mean": {
+    "mean": 26.34817578109505,
+    "std": 1.0184459581722811
+  },
+  "model_ms_p95": {
+    "mean": 33.36791001396098,
+    "std": 3.9737617563565553
+  },
+  "files": [
+    "results\\spoter_csv_rect_dip_s0\\metrics.json",
+    "results\\spoter_csv_rect_dip_s1\\metrics.json",
+    "results\\spoter_csv_rect_dip_s2\\metrics.json"
+  ]
+}

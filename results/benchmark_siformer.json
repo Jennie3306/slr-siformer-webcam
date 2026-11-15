@@ -1,0 +1,31 @@
+{
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 204 Stepping 3, GenuineIntel",
+    "cpu_count": 8,
+    "python": "3.10.22"
+  },
+  "mediapipe_per_frame_ms": {
+    "n": 200,
+    "mean": 69.73924550315132,
+    "median": 84.30735001456924,
+    "p95": 101.61686000938062
+  },
+  "video_frame_hw": [
+    720,
+    1280
+  ],
+  "model_forward_ms": {
+    "n": 108,
+    "mean": 32.13449722399538,
+    "median": 22.35160002601333,
+    "p95": 59.6222599968314
+  },
+  "after_sign_total_ms": {
+    "n": 108,
+    "mean": 126.31501666328404,
+    "median": 97.66345002572052,
+    "p95": 199.46466498367954
+  },
+  "torch_threads": 8
+}

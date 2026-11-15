@@ -1,0 +1,31 @@
+{
+  "pi_top1": {
+    "mean": 0.640625,
+    "std": 0.0078125
+  },
+  "pi_top5": {
+    "mean": 0.8541666666666666,
+    "std": 0.004510548978043951
+  },
+  "pc_top1": {
+    "mean": 0.6477777777777778,
+    "std": 0.008552669065744836
+  },
+  "pc_top5": {
+    "mean": 0.8588888888888887,
+    "std": 0.007876359377087675
+  },
+  "model_ms_mean": {
+    "mean": 57.716141666939315,
+    "std": 3.463001018124787
+  },
+  "model_ms_p95": {
+    "mean": 83.32956665447757,
+    "std": 5.708739608459532
+  },
+  "files": [
+    "results\\siformer_csv_s0\\metrics.json",
+    "results\\siformer_csv_s1\\metrics.json",
+    "results\\siformer_csv_s2\\metrics.json"
+  ]
+}

@@ -1,0 +1,8 @@
+# Python 3.10 (mediapipe bản có mp.solutions chưa hỗ trợ Python mới nhất)
+# torch: cài theo hướng dẫn của repo Siformer (trên laptop dùng bản CPU là đủ)
+mediapipe==0.10.14
+opencv-python
+numpy<2
+pandas
+matplotlib
+remotezip   # chỉ cần cho src/external_test.py (thử nghiệm ASL Citizen)

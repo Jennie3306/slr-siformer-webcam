@@ -1,0 +1,21 @@
+{
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 204 Stepping 3, GenuineIntel",
+    "cpu_count": 8,
+    "python": "3.10.22"
+  },
+  "model_forward_ms": {
+    "n": 200,
+    "mean": 60.976678999722935,
+    "median": 55.52539999189321,
+    "p95": 91.52356498525474
+  },
+  "after_sign_total_ms": {
+    "n": 200,
+    "mean": 201.99083999963477,
+    "median": 196.49185000162106,
+    "p95": 247.0945450259023
+  },
+  "torch_threads": 8
+}
